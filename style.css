@@ -1,0 +1,99 @@
+/*kommentaar*/
+h1{
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: blueviolet;/*teksti värv*/
+    background-color: black; /*tausta värv*/
+    background: transparent;
+}
+header{
+    padding: 5%;
+    background-color: black; /*tausta värv*/
+    border-left: 3px solid blue;
+    border-bottom: 3px dotted blue;
+    border-radius: 0 0 0 60px;
+    background-image: url("uwu.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+footer{
+    padding: 5%;
+    background-color: black; /*tausta värv*/
+    border-left: 3px solid blue;
+    border-top: 3px dotted blue;
+    border-radius: 0 0 0 60px;
+}
+section#Iessa{
+    padding: 5%;
+    border: 1px solid blue;
+    margin: 5px;
+    width: 25%;
+}
+section#Iteine{
+    padding: 5%;
+    border: 1px solid green;
+    margin: 5px;
+    width: 15%;
+}
+section#Kessa{
+    padding: 5%;
+    border: 20px double black;
+    margin: 5px;
+    width: 25%;
+}
+section#Tessa{
+    padding: 5%;
+    border: 2px dashed deeppink;
+    margin: 5px;
+    width: 25%;
+}
+section#Lessa{
+    padding: 1%;
+    border: 5px dotted aqua;
+    margin: 1px;
+    width: 20%;
+}
+img#uwu{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+/*navigeerimis menüü*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid blue;
+    border-radius: 20%;
+}
+nav{
+    padding: 5%;
+    margin-bottom: 5px;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+#suurkast{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#pildigalerii{
+    border: 1px solid blue;
+}
+
+
+
+
+
